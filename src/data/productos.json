@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Blanca",
+    "precio": 2500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/img_4097-968d9e7b0c1ab4ebce17267589521157-1024-1024.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Pantalón Jeans",
+    "precio": 4800,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/img_0518-8ec0ade25f69352da117540561432443-1024-1024.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Campera Negra",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/20250617_173554424_ios-cc6ad741a1ec3385e617502659544805-640-0.webp"
+  }
+]

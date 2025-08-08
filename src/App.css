@@ -8,6 +8,7 @@
 }
 
 .logo {
+
   height: 40px;
 }
 
@@ -28,7 +29,43 @@
   color: #00c6ff;
 }
 
+
 .carrito {
   font-size: 24px;
   cursor: pointer;
+  position: relative;
+}
+
+.contador {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+}
+
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.item-list-container {
+  justify-content: center; 
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+
+@media (max-width: 768px) {
+  .item-list-container {
+    gap: 15px;
+    padding: 15px;
+    justify-content: center;
+  }
 }

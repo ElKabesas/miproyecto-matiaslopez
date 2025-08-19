@@ -16,5 +16,47 @@
     "nombre": "Campera Negra",
     "precio": 7500,
     "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/20250617_173554424_ios-cc6ad741a1ec3385e617502659544805-640-0.webp"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Short Sutton",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/img_0561-10d8fcbae45fa0786f17540578770978-1024-1024.webp"
+  },
+
+   {
+    "id": 5,
+    "nombre": "Jean Baggy",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/whatsapp-image-2025-07-28-at-12-54-37-44fa5cc88706657fd917537181411915-1024-1024.webp"
+  },
+
+   {
+    "id": 6,
+    "nombre": "Campera Gamulan BEAR",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/20250625_165238723_ios-a8477276ab5e83b36c17514016466233-1024-1024.webp"
+  },
+
+   {
+    "id": 7,
+    "nombre": "Jean AUBREY Baggy",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/whatsapp-image-2025-06-12-at-16-52-23-1-4f3878208da2b788fe17497588034823-1024-1024.webp"
+  },
+
+   {
+    "id": 8,
+    "nombre": "Jean SCOUT Wide Leg",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/whatsapp-image-2025-05-30-at-12-59-24-8f9cfca54dde76ea2917486249893617-1024-1024.webp"
+  },
+
+   {
+    "id": 9,
+    "nombre": "Remeron Estampado On Vacacion",
+    "precio": 7500,
+    "imagen": "https://acdn-us.mitiendanube.com/stores/004/800/595/products/20250617_164558990_ios-7b9044100ebd8e3bc517502725834440-1024-1024.webp"
   }
 ]

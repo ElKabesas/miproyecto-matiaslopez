@@ -12,6 +12,15 @@
   height: 40px;
 }
 
+.navstyle{
+  
+      display: flex;
+      justifyContent:space-between; 
+      padding:1rem;
+      backgroundColor:#eee; 
+  
+}
+
 .nav-links {
   display: flex;
   list-style: none;

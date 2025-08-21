@@ -1,16 +1,18 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ItemListContainer from "./components/ItemListContainer";
-import CartWidget from "./components/CartWidget";
+import Productos from "./Pages/Productos";
+import Carrito from "./Pages/Carrito";
 
 function App() {
   return (
     <>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<ItemListContainer greeting="¡Bienvenido a nuestra tienda online!" />} />
-        <Route path="/cart" element={<CartWidget />} />
-        <Route path="*" element={<h2>404 - Página no encontrada</h2>} />
+        <Route path="/productos" element={<Productos />} />
+        <Route path="/carrito" element={<Carrito />} />
       </Routes>
     </>
   );

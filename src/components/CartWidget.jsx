@@ -1,13 +1,12 @@
-import { useState } from 'react';
+import { useContext } from "react";
+import { CartContext } from "../CartContext";
 
 const CartWidget = () => {
-  const [count, setCount] = useState(0);
+  const { cart } = useContext(CartContext);
 
   return (
     <div>
-      🛒 <span>{count}</span>
-      <button onClick={() => setCount(count + 1)}>+</button>
-      <button onClick={() => setCount(Math.max(count - 1, 0))}>-</button>
+      🛒 <span>{cart.length}</span>
     </div>
   );
 };

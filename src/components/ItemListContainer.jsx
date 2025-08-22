@@ -1,10 +1,10 @@
-import ItemList from './ItemList.jsx';
+import Carrusel from "./Carrusel";
 
 const ItemListContainer = ({ greeting }) => {
   return (
     <div>
       <h2>{greeting}</h2>
-      <ItemList />
+      <Carrusel />
     </div>
   );
 };

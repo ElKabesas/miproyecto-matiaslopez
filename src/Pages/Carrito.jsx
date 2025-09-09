@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CartContext } from "../CartContext";
 
 const Carrito = () => {
-  const { cart, clearCart } = useContext(CartContext);
+  const { cart, clearCart, getTotalPrice } = useContext(CartContext);
 
   return (
     <div>
@@ -12,12 +12,13 @@ const Carrito = () => {
       ) : (
         <>
           <ul>
-            {cart.map((item, index) => (
-              <li key={index}>
-                {item.nombre} - ${item.precio}
+            {cart.map((item) => (
+              <li key={item.id}>
+                {item.nombre} x {item.cantidad} = ${item.precio * item.cantidad}
               </li>
             ))}
           </ul>
+          <h3>Total: ${getTotalPrice()}</h3>
           <button onClick={clearCart}>Vaciar carrito</button>
         </>
       )}
